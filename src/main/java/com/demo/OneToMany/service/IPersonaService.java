@@ -1,6 +1,6 @@
-package com.demo.OneToOne.service;
+package com.demo.OneToMany.service;
 
-import com.demo.OneToOne.model.Persona;
+import com.demo.OneToMany.model.Persona;
 
 import java.util.List;
 

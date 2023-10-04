@@ -1,7 +1,7 @@
-package com.demo.OneToOne.controller;
+package com.demo.OneToMany.controller;
 
-import com.demo.OneToOne.model.Persona;
-import com.demo.OneToOne.service.IPersonaService;
+import com.demo.OneToMany.model.Persona;
+import com.demo.OneToMany.service.IPersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -69,8 +69,8 @@ public class PersonaController {
         }*/
 
     @PutMapping ("/personas/editar")
-    public Persona editPersona(@RequestBody Persona per){
-        persoServ.editPersona(per);
+    public Persona editPersona(@RequestBody Persona per){//Recibe el objeto completo
+        persoServ.editPersona(per);                    //con el @RequestBody
 
         return persoServ.findPersona(per.getId());
     }

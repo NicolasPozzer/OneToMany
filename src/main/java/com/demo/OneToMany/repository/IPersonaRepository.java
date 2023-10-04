@@ -1,6 +1,6 @@
-package com.demo.OneToOne.repository;
+package com.demo.OneToMany.repository;
 
-import com.demo.OneToOne.model.Persona;
+import com.demo.OneToMany.model.Persona;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

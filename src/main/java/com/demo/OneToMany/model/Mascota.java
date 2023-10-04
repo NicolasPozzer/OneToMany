@@ -1,4 +1,4 @@
-package com.demo.OneToOne.model;
+package com.demo.OneToMany.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

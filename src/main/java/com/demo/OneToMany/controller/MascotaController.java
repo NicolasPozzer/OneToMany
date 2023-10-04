@@ -1,7 +1,7 @@
-package com.demo.OneToOne.controller;
+package com.demo.OneToMany.controller;
 
-import com.demo.OneToOne.model.Mascota;
-import com.demo.OneToOne.service.IMascotaService;
+import com.demo.OneToMany.model.Mascota;
+import com.demo.OneToMany.service.IMascotaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

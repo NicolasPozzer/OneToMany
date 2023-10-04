@@ -1,7 +1,7 @@
-package com.demo.OneToOne.service;
+package com.demo.OneToMany.service;
 
-import com.demo.OneToOne.model.Persona;
-import com.demo.OneToOne.repository.IPersonaRepository;
+import com.demo.OneToMany.model.Persona;
+import com.demo.OneToMany.repository.IPersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

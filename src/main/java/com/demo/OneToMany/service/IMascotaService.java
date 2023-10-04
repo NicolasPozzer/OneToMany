@@ -1,6 +1,6 @@
-package com.demo.OneToOne.service;
+package com.demo.OneToMany.service;
 
-import com.demo.OneToOne.model.Mascota;
+import com.demo.OneToMany.model.Mascota;
 
 
 import java.util.List;
